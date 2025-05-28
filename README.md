@@ -1,4 +1,4 @@
-# UR-mat: URban MATerials Dataset
+# UR-MAT: URban MATerials Dataset
 
 **UR-mat** (*Urban Materials Dataset*) is a multimodal, material-aware synthetic dataset designed for 3D scene understanding, semantic segmentation, and electromagnetic simulation in urban environments. It includes RGB images, depth maps, material segmentation masks, point clouds, camera poses, 3D meshes, and physical material metadata, all generated from diverse urban scenarios.
 
