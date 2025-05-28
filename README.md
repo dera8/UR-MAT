@@ -21,12 +21,12 @@ Each scene includes:
 
 Each scene is organized into:
 UR-mat/
-├── train/
-├── val/
-├── test/
-└── metadata/
-├── scene_physical_metadata.json
-└── segmentation_classes.json
+- `train/`
+- `val/`
+- `test/`
+- `metadata/`
+- `scene_physical_metadata.json`
+- `segmentation_classes.json`
 
 Modalities:
 - `rgb/` — Rendered RGB images
@@ -58,7 +58,7 @@ The dataset and accompanying tools are released under the **Creative Commons Att
 If you use UR-mat in your research, please cite:
 
 
-🤝 Acknowledgments
+## 🤝 Acknowledgments
 UR-mat is built using open and source-available tools:
 
 - OpenStreetMap
