@@ -20,13 +20,13 @@ Each scene includes:
 ## 📦 Dataset Contents
 
 Each scene is organized into:
-UR-mat/
-- `train/`
-- `val/`
-- `test/`
-- `metadata/`
-- `scene_physical_metadata.json`
-- `segmentation_classes.json`
+- `UR-MAT/`
+  - `train/`
+  - `val/`
+  - `test/`
+  - `metadata/`
+  - `scene_physical_metadata.json`
+  - `segmentation_classes.json`
 
 Modalities:
 - `rgb/` — Rendered RGB images
@@ -63,6 +63,5 @@ UR-mat is built using open and source-available tools:
 
 - OpenStreetMap
 - OSM2World
-- Blender
 - Unreal Engine
 - UnrealCV
