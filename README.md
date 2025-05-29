@@ -47,8 +47,6 @@ Extracts per-object and per-section material assignments from Unreal Engine and 
 ### 🔹 `annotate_material_metadata.py`
 Classifies Unreal materials into high-level material types (e.g., Glass, Limestone) and assigns physical properties like permittivity and reflectance.
 
-> Note: We do **not** release the full dataset generation pipeline. These tools support interpretability and allow partial reproduction for analysis or extension.
-
 ## 📜 License
 
 The dataset and accompanying tools are released under the **Creative Commons Attribution 4.0 International (CC-BY 4.0)** license.
