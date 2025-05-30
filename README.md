@@ -59,7 +59,7 @@ If you use UR-mat in your research, please cite:
 ## 🤝 Acknowledgments
 UR-mat is built using open and source-available tools:
 
-- OpenStreetMap
+- [OpenStreetMap](https://www.openstreetmap.org/#map=17/41.868994/12.445643)
 - OSM2World
 - Unreal Engine
 - UnrealCV
