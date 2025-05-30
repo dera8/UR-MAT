@@ -4,8 +4,7 @@
 
 ## 🏙️ Overview
 
-UR-mat features **6 urban scenes** with diverse architecture and materials:
-- Louvre (Paris)
+UR-mat features **5 urban scenes** with diverse architecture and materials:
 - Trastevere (Rome)
 - CityLife (Milan)
 - Canary Wharf (London)
