@@ -29,7 +29,7 @@ def get_materials_with_sections():
 
 # Save extracted materials per section
 scene_materials = get_materials_with_sections()
-save_path = "C:/Users/Debora/Desktop/scene_materials_trastevere.json"
+save_path = "C:/.../scene_materials_trastevere.json"
 with open(save_path, "w") as file:
     json.dump(scene_materials, file, indent=4)
 
