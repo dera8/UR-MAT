@@ -60,6 +60,6 @@ If you use UR-mat in your research, please cite:
 UR-mat is built using open and source-available tools:
 
 - [OpenStreetMap](https://www.openstreetmap.org/#map=17/41.868994/12.445643)
-- OSM2World
-- Unreal Engine
-- UnrealCV
+- [OSM2World](https://osm2world.org/)
+- [Unreal Engine](https://www.unrealengine.com/en-US)
+- [UnrealCV](https://unrealcv.org/)
