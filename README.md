@@ -36,6 +36,8 @@ Modalities:
 - `mesh.glb` — Annotated 3D scene mesh
 - `scene_physical_metadata.json` — Material metadata with physical properties
 
+You can find the dataset here: https://zenodo.org/records/15557228 
+
 ## 🛠️ Tools & Scripts
 
 This repository includes two utility scripts:
