@@ -2,6 +2,8 @@
 
 **UR-mat** (*Urban Materials Dataset*) is a multimodal, material-aware synthetic dataset designed for 3D scene understanding, semantic segmentation, and electromagnetic simulation in urban environments. It includes RGB images, depth maps, material segmentation masks, point clouds, camera poses, 3D meshes, and physical material metadata, all generated from diverse urban scenarios.
 
+You can find the dataset here: https://zenodo.org/records/15557228 
+
 ## 🏙️ Overview
 
 UR-mat features **5 urban scenes** with diverse architecture and materials:
@@ -35,8 +37,6 @@ Modalities:
 - `poses/` — Camera parameters (intrinsics, extrinsics)
 - `mesh.glb` — Annotated 3D scene mesh
 - `scene_physical_metadata.json` — Material metadata with physical properties
-
-You can find the dataset here: https://zenodo.org/records/15557228 
 
 ## 🛠️ Tools & Scripts
 
