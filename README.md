@@ -56,6 +56,9 @@ The dataset and accompanying tools are released under the **Creative Commons Att
 
 If you use UR-mat in your research, please cite:
 
+- Dataset: https://doi.org/10.5281/zenodo.15557227
+- Paper: it will soon be available.
+
 
 ## 🤝 Acknowledgments
 UR-mat is built using open and source-available tools:
