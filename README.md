@@ -29,6 +29,9 @@ Dataset_URMAT_v2/
 ├── test/
 ```
 
+🧱 Material Classes
+URMAT supports 14 materials: Brick, Glass, Steel, Tiles, Limestone, Plaster, Concrete, Wood, Cobblestone, Slate, Asphalt, Plastic, Gravel, Unknown.
+
 ## 🛠️ Tools & Scripts
 
 This repository includes two utility scripts:
