@@ -1,6 +1,6 @@
 # UR-MAT: URban MATerials Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXX.svg)]([https://doi.org/10.5281/zenodo.XXXXX](https://doi.org/10.5281/zenodo.16748119))
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16748119.svg)]([https://doi.org/10.5281/zenodo.16748119](https://doi.org/10.5281/zenodo.16748119))
 
 **URMAT** is a multimodal synthetic dataset designed for training and evaluating AI models for **material-aware semantic segmentation**, **scene understanding**, and **EM wave propagation simulation** in realistic 3D urban environments.
 
