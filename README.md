@@ -2,13 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16748119.svg)]([https://doi.org/10.5281/zenodo.16748119](https://doi.org/10.5281/zenodo.16748119))
 
-**URMAT** is a multimodal synthetic dataset designed for training and evaluating AI models for **material-aware semantic segmentation**, **scene understanding**, and **EM wave propagation simulation** in realistic 3D urban environments.
+**UR-MAT** is a multimodal synthetic dataset designed for training and evaluating AI models for **material-aware semantic segmentation**, **scene understanding**, and **EM wave propagation simulation** in realistic 3D urban environments.
 
 ---
 
 ## 📦 Dataset Contents
 
-URMAT includes **7 European city districts** (Trastevere, Louvre, Bryggen, etc.), each modeled with georeferenced 3D meshes and PBR materials. The dataset provides:
+UR-MAT includes **7 European city districts** (Trastevere, Louvre, Bryggen, etc.), each modeled with georeferenced 3D meshes and PBR materials. The dataset provides:
 
 ### 📁 Folder Structure
 
@@ -30,7 +30,7 @@ Dataset_URMAT_v2/
 ```
 
 🧱 Material Classes
-URMAT supports 14 materials: Brick, Glass, Steel, Tiles, Limestone, Plaster, Concrete, Wood, Cobblestone, Slate, Asphalt, Plastic, Gravel, Unknown.
+UR-MAT supports 14 materials: Brick, Glass, Steel, Tiles, Limestone, Plaster, Concrete, Wood, Cobblestone, Slate, Asphalt, Plastic, Gravel, Unknown.
 
 ## 🛠️ Tools & Scripts
 
@@ -51,7 +51,7 @@ The dataset and accompanying tools are released under the **Creative Commons Att
 If you use UR-mat in your research, please cite:
 
 - Dataset: [https://doi.org/10.5281/zenodo.15557227](https://doi.org/10.5281/zenodo.16748119)
-- Paper: it will soon be available.
+- Paper: I will present this work at ACM Multimedia 2025.
 
 
 ## 🤝 Acknowledgments
