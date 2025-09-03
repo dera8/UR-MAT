@@ -50,7 +50,7 @@ The dataset and accompanying tools are released under the **Creative Commons Att
 
 If you use UR-mat in your research, please cite:
 
-- Dataset: [https://doi.org/10.5281/zenodo.15557227](https://doi.org/10.5281/zenodo.16748119)
+- Dataset: [https://doi.org/10.5281/zenodo.16748119](https://doi.org/10.5281/zenodo.16748119)
 - Paper: *UR-MAT: A Multimodal, Material-Aware Synthetic Dataset of Urban Scenarios*  
   [ResearchGate](https://www.researchgate.net/publication/395193944_UR-MAT_A_Multimodal_Material-Aware_Synthetic_Dataset_of_Urban_Scenarios)  
   **(to appear in ACM Multimedia 2025, Dataset Track)**
