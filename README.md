@@ -1,7 +1,6 @@
 # UR-MAT: URban MATerials Dataset
 
-
-
+[![DOI](https://img.shields.io/badge/DOI-10.1145/3746027.3758314-blue.svg)](https://doi.org/10.1145/3746027.3758314)
 
 
 **UR-MAT** is a multimodal synthetic dataset designed for training and evaluating AI models for **material-aware semantic segmentation**, **scene understanding**, and **EM wave propagation simulation** in realistic 3D urban environments.
