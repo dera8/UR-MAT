@@ -1,6 +1,6 @@
 # UR-MAT: URban MATerials Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16748119.svg)]([https://doi.org/10.5281/zenodo.16748119))
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16748119.svg)]((https://doi.org/10.5281/zenodo.16748119))
 
 
 
