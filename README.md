@@ -55,8 +55,17 @@ The dataset and accompanying tools are released under the **Creative Commons Att
 If you use UR-mat in your research, please cite:
 
 - Paper: *UR-MAT: A Multimodal, Material-Aware Synthetic Dataset of Urban Scenarios*  
-  [ACM Multimedia 2025, Dataset Track](https://dl.acm.org/doi/10.1145/3746027.3758314)  
+  [ACM Multimedia 2025, Dataset Track](https://dl.acm.org/doi/10.1145/3746027.3758314)
 
+```bibtex
+@inproceedings{russo2025ur,
+  title={UR-MAT: A Multimodal, Material-Aware Synthetic Dataset of Urban Scenarios},
+  author={Russo, Debora and Mazzocca, Nicola and Vittorini, Valeria},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={13164--13169},
+  year={2025}
+}
+```
 
 
 ## 🤝 Acknowledgments
