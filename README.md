@@ -12,7 +12,7 @@
 UR-MAT includes **7 European city districts** (Trastevere, Louvre, Bryggen, etc.), each modeled with georeferenced 3D meshes and PBR materials. The dataset provides:
 
 ## Link to the dataset
-https://zenodo.org/records/16748119 
+[https://zenodo.org/records/16748119](https://zenodo.org/records/18911512) 
 
 ### 📁 Folder Structure
 
