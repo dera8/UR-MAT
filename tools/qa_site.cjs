@@ -14,7 +14,8 @@ for(const [name,width,height] of [['desktop',1440,1000],['mobile',390,844]]){
  await page.locator('.citation summary').click();assert(await page.locator('#bibtex').isVisible());
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Horizontal overflow');
  assert.equal(await page.evaluate(()=>[...document.images].filter(i=>!i.complete||!i.naturalWidth).length),0,'Broken images');
- await page.locator('#load-3d').click();await page.waitForFunction(()=>document.getElementById('viewer').dataset.loaded==='true',null,{timeout:60000});
+ await page.locator('#load-3d').click();await page.waitForFunction(()=>document.getElementById('viewer').dataset.loaded==='true',null,{timeout:120000});
+ assert.equal(await page.locator('#viewer').getAttribute('data-mode'),'appearance'); await page.locator('#view-materials').click(); assert.equal(await page.locator('#viewer').getAttribute('data-mode'),'materials'); assert((await page.locator('#material-select option').count())>20); await page.locator('#material-select').selectOption('WOOD'); assert((await page.locator('#material-info').innerText()).includes('Wood')); await page.locator('#viewer').screenshot({path:path.join(out,name+'-classes.png')}); await page.locator('#view-appearance').click();
  await page.locator('#viewer').screenshot({path:path.join(out,name+'-3d.png')});await page.locator('#reset-3d').click();
  assert.deepEqual(errors,[]);assert.deepEqual(bad,[]);console.log(name+': all interaction, geometry, asset and overflow checks passed');await page.close();
 }

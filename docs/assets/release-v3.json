@@ -1,0 +1,36 @@
+{
+  "record": "https://zenodo.org/records/18911512",
+  "version": "v3",
+  "dataset_doi": "10.5281/zenodo.18911512",
+  "publication_date": "2026-03-08",
+  "creator": "Debora Russo",
+  "total_display_size": "18.0 GB",
+  "scenes": 8,
+  "material_classes": 14,
+  "files": [
+    {
+      "filename": "Dataset_URMAT_v3.zip",
+      "display_size": "11.9 GB",
+      "md5": "53d9fd60041cbbbacb240dfa01f7ad30",
+      "url": "https://zenodo.org/records/18911512/files/Dataset_URMAT_v3.zip?download=1"
+    },
+    {
+      "filename": "glb_v3.zip",
+      "display_size": "6.1 GB",
+      "md5": "9920c8177cba320e2ad11b0cca664b10",
+      "url": "https://zenodo.org/records/18911512/files/glb_v3.zip?download=1"
+    },
+    {
+      "filename": "scene_physical_metadata.zip",
+      "display_size": "142.8 kB",
+      "md5": "994dd4eb8068461c3ba89fc20dcb3243",
+      "url": "https://zenodo.org/records/18911512/files/scene_physical_metadata.zip?download=1"
+    }
+  ],
+  "license": {
+    "status": "Refer to the original Zenodo record; the available page text does not expose a license identifier.",
+    "url": "https://zenodo.org/records/18911512#rights"
+  },
+  "paper_doi": "10.1145/3746027.3758314",
+  "note": "Release v3 metadata, separate from the original seven-scene ACM 2025 benchmark."
+}

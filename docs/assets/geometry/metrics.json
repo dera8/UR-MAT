@@ -1,32 +1,44 @@
 {
   "scene": "Bryggen",
-  "source_file": "bryggen_osm2world.glb",
-  "source_sha256": "9210a43685118af87a539750a0e7c8c9748388c1a07690804138f717c446e0a2",
-  "source_bytes": 99144584,
-  "mesh_definitions": 1805,
-  "mesh_instances": 1805,
-  "material_definitions": 32,
-  "vertex_entries": 1518066,
-  "triangle_count": 506022,
-  "bounds_min": [
-    -255.8520050048828,
-    -3.0,
-    -265.0753173828125
-  ],
-  "bounds_max": [
-    264.271484375,
-    33.0,
-    305.2728576660156
-  ],
-  "extent_scene_units": [
-    520.1234741210938,
-    36.0,
-    570.34814453125
-  ],
-  "preview_bytes": 7888140,
-  "preview_vertices": 401808,
-  "preview_triangle_count": 506022,
-  "preview_method": "All original triangles and exact float32 positions retained. Vertices deduplicated by material; textures replaced with average texture colors; UVs and normals omitted; materials grouped to reduce draw calls. Geometry metrics are measured from this local source GLB, not a dataset-wide benchmark.",
-  "axis": "glTF Y-up",
-  "units_note": "Extents are reported in source scene units; no external survey validation was performed."
+  "source_file": "Bryggen_ue.glb",
+  "source_sha256": "506cdd5e31875e63df4efea5dfe9764811dc1cddb43117a4ec382cf670d2322b",
+  "source_bytes": 624835928,
+  "metadata_source": "scene_physical_metadata_bryggen.json",
+  "metadata_sha256": "68aeeebf3df523e4619c704f61547cb1f80304606d0040e864915ffc98f9bfc5",
+  "mesh_definitions": 1806,
+  "mesh_instances": 1806,
+  "material_definitions": 691,
+  "vertex_entries": 967510,
+  "triangle_count": 509990,
+  "preview_triangle_count": 509990,
+  "preview_bytes": 52972808,
+  "preview_file": "bryggen-ue-preview.glb",
+  "source_images": 2573,
+  "unique_preview_image_payloads": 2549,
+  "max_color_texture_px": 256,
+  "max_other_texture_px": 128,
+  "metadata_matched_materials": 691,
+  "material_classes": {
+    "Unknown": 19,
+    "Wood": 78,
+    "Glass": 1,
+    "Plaster": 250,
+    "Plastic": 1,
+    "Brick": 331,
+    "Steel": 1,
+    "Asphalt": 3,
+    "Slate": 1,
+    "Concrete": 2,
+    "Gravel": 1,
+    "Cobblestone": 3
+  },
+  "validation": {
+    "geometry_accessor_bytes_identical": true,
+    "nodes_and_transforms_identical": true,
+    "primitive_material_assignments_identical": true,
+    "pbr_material_parameters_identical": true
+  },
+  "preview_method": "UE export retained without decimation or mesh merging. All geometry buffers, normals, UVs, transforms, material indices and PBR parameters preserved. WebP colour textures (quality 85) reduced to at most 256px; other maps to 128px (lossless WebP after resizing); identical resized images share storage. Runtime hides the sky sphere and exported scene lights for framing. Material classes and physical values copied from source metadata; only exporter suffixes removed for matching. Gzip transport is lossless; browsers decompress before loading.",
+  "physical_properties_note": "Values are source annotations, not measured or frequency-calibrated properties. Unknown labels are preserved.",
+  "download_bytes": 20575933
 }
