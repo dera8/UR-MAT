@@ -1,0 +1,67 @@
+{
+  "source": {
+    "title": "UR-MAT: A Multimodal, Material-Aware Synthetic Dataset of Urban Scenarios",
+    "authors": ["Debora Russo", "Nicola Mazzocca", "Valeria Vittorini"],
+    "venue": "ACM Multimedia 2025",
+    "doi": "10.1145/3746027.3758314",
+    "url": "https://doi.org/10.1145/3746027.3758314",
+    "local_pdf": "ACMMM2025_URMAT.pdf",
+    "license": "CC BY 4.0"
+  },
+  "scope": "Original seven-scene ACM Multimedia 2025 release; these statistics and experiments do not describe the later eight-scene v3 release.",
+  "dataset": {
+    "source_page": 3,
+    "scenes": 7,
+    "cameras_per_scene": 10,
+    "frames_per_camera": 100,
+    "multimodal_frames": 7000,
+    "file_count_description": "Over 220,000 files",
+    "size_description": "Approximately 37 GB",
+    "modalities": ["RGB", "Depth", "Material segmentation", "Mesh-instance segmentation", "Point clouds", "Camera poses", "3D meshes", "Material metadata"]
+  },
+  "segmentation": {
+    "source_page": 4,
+    "source_table": 3,
+    "model": "U-Net with ResNet-18 encoder",
+    "training": "Trained from scratch",
+    "split": {"train": 0.70, "validation": 0.15, "test": 0.15},
+    "reported_pixel_accuracy": 0.961,
+    "reported_mean_iou": 0.803,
+    "note": "Reported synthetic-scene benchmark results, not a new measurement or a real-world generalization benchmark. Use the paper's reported mIoU; per-class values are rounded.",
+    "classes": [
+      {"id":0,"material":"Limestone","iou":0.9674,"color_name":"Yellow"},
+      {"id":1,"material":"Slate","iou":0.9261,"color_name":"Blue"},
+      {"id":2,"material":"Glass","iou":0.9527,"color_name":"Cyan"},
+      {"id":3,"material":"Steel","iou":0.0026,"color_name":"Orange"},
+      {"id":4,"material":"Brick","iou":0.9006,"color_name":"Firebrick"},
+      {"id":5,"material":"Cobblestone","iou":0.8911,"color_name":"Dark Orange"},
+      {"id":6,"material":"Plaster","iou":0.9118,"color_name":"Gold"},
+      {"id":7,"material":"Concrete","iou":0.8695,"color_name":"Purple"},
+      {"id":8,"material":"Gravel","iou":0.9569,"color_name":"Indigo"},
+      {"id":9,"material":"Tiles","iou":0.9702,"color_name":"Dark Red"},
+      {"id":10,"material":"Wood","iou":0.7029,"color_name":"Saddle Brown"},
+      {"id":11,"material":"Asphalt","iou":0.7012,"color_name":"Black"},
+      {"id":12,"material":"Plastic","iou":0.5318,"color_name":"Deep Pink"},
+      {"id":13,"material":"Unknown","iou":0.9541,"color_name":"Gray"}
+    ]
+  },
+  "ray_tracing": {
+    "source_pages": [4,6],
+    "scene": "Siemensstadt, Berlin",
+    "tool": "MATLAB Site Viewer",
+    "frequency_ghz": 28,
+    "transmitters": 1,
+    "receivers": 1,
+    "description": "Qualitative material-aware multipath demonstration; the paper describes paths with losses exceeding 120 dB.",
+    "note": "This is a simulated case study, not measured field validation."
+  },
+  "scenes": [
+    {"name":"Trastevere","city":"Rome","type":"Historic","dominant_materials":["Brick","Wood","Plaster","Tiles"]},
+    {"name":"CityLife","city":"Milan","type":"Office district","dominant_materials":["Glass","Steel","Concrete","Plastic"]},
+    {"name":"Canary Wharf","city":"London","type":"Office district","dominant_materials":["Glass","Steel","Concrete","Asphalt"]},
+    {"name":"Siemensstadt","city":"Berlin","type":"Residential","dominant_materials":["Plaster","Wood","Gravel","Concrete"]},
+    {"name":"Eixample","city":"Barcelona","type":"Residential","dominant_materials":["Plaster","Concrete","Asphalt","Glass"]},
+    {"name":"Louvre","city":"Paris","type":"Cultural heritage","dominant_materials":["Limestone","Slate","Glass","Tiles"]},
+    {"name":"Bryggen","city":"Bergen","type":"Historic","dominant_materials":["Wood","Brick","Tiles"]}
+  ]
+}

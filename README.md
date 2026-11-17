@@ -1,5 +1,7 @@
 # UR-MAT: URban MATerials Dataset
 
+**[Explore the interactive project page](https://dera8.github.io/UR-MAT/)** — aligned modality previews, an animated comparison, an interactive 3D scene and sourced measurements.
+
 [![DOI](https://img.shields.io/badge/DOI-10.1145/3746027.3758314-blue.svg)](https://doi.org/10.1145/3746027.3758314)
 
 

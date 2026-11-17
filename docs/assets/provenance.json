@@ -1,0 +1,27 @@
+{
+  "louvre": "Aligned example images from author thesis figs/ch3/louvre_ds_*.png; original 640x480 pixels.",
+  "animation": "48-frame wipe between the same Louvre RGB and material mask; not a camera trajectory.",
+  "bryggen": [
+    {
+      "asset": "bryggen-rgb.webp",
+      "source": "Dataset_Bryggen\\camera_5\\rgb\\rgb_camera_5_0000.png",
+      "sha256": "793f3d9d1d940c7fa86fd87a42332096fff03b1508afd9c6b1547640f1568c3d"
+    },
+    {
+      "asset": "bryggen-depth.webp",
+      "source": "Dataset_Bryggen\\camera_5\\depth_png\\depth_camera_5_0000.png",
+      "sha256": "5b05694d54ed4b31a24bcd7cbf2850243d315fad61a202e8272fbdf2c368e854"
+    },
+    {
+      "asset": "bryggen-material.webp",
+      "source": "Dataset_Bryggen\\camera_5\\segmentation_material\\segmat_camera_5_0000.png",
+      "sha256": "7a81764390718227e1d7d48e76a20b6448123afb65bb320e9e2211fcbfe76b85"
+    },
+    {
+      "asset": "bryggen-mesh.webp",
+      "source": "Dataset_Bryggen\\camera_5\\segmentation_mesh\\seg_camera_5_0000.png",
+      "sha256": "b1196afb1d1a8731034bc8d84ac4f22b479712fdd952a6160ee14cb7420fb592"
+    }
+  ],
+  "paper": "ACM MM 2025, DOI 10.1145/3746027.3758314; figure 2 and pipeline figure."
+}

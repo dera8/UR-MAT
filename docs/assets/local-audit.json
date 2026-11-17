@@ -1,0 +1,39 @@
+{
+  "scope": "Local Desktop exports; counts are not a census of the Zenodo release.",
+  "method": "Count files in all camera_* directories; one modality-specific file per frame.",
+  "scenes": [
+    {
+      "scene": "louvre",
+      "folder": "Dataset_Louvre",
+      "cameras": 10,
+      "counts": {
+        "rgb": 1000,
+        "depth": 1000,
+        "material": 1000,
+        "metadata": 1000
+      }
+    },
+    {
+      "scene": "bryggen",
+      "folder": "Dataset_Bryggen",
+      "cameras": 10,
+      "counts": {
+        "rgb": 1000,
+        "depth": 1000,
+        "material": 1000,
+        "metadata": 1000
+      }
+    },
+    {
+      "scene": "maradona",
+      "folder": "Dataset_Maradona",
+      "cameras": 10,
+      "counts": {
+        "rgb": 1000,
+        "depth": 1000,
+        "material": 1000,
+        "metadata": 1000
+      }
+    }
+  ]
+}

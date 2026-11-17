@@ -1,0 +1,32 @@
+{
+  "scene": "Bryggen",
+  "source_file": "bryggen_osm2world.glb",
+  "source_sha256": "9210a43685118af87a539750a0e7c8c9748388c1a07690804138f717c446e0a2",
+  "source_bytes": 99144584,
+  "mesh_definitions": 1805,
+  "mesh_instances": 1805,
+  "material_definitions": 32,
+  "vertex_entries": 1518066,
+  "triangle_count": 506022,
+  "bounds_min": [
+    -255.8520050048828,
+    -3.0,
+    -265.0753173828125
+  ],
+  "bounds_max": [
+    264.271484375,
+    33.0,
+    305.2728576660156
+  ],
+  "extent_scene_units": [
+    520.1234741210938,
+    36.0,
+    570.34814453125
+  ],
+  "preview_bytes": 7888140,
+  "preview_vertices": 401808,
+  "preview_triangle_count": 506022,
+  "preview_method": "All original triangles and exact float32 positions retained. Vertices deduplicated by material; textures replaced with average texture colors; UVs and normals omitted; materials grouped to reduce draw calls. Geometry metrics are measured from this local source GLB, not a dataset-wide benchmark.",
+  "axis": "glTF Y-up",
+  "units_note": "Extents are reported in source scene units; no external survey validation was performed."
+}
